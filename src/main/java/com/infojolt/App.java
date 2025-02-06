@@ -4,6 +4,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Mark");
+        String name = "Mark";
+        printGreeting(name);
+    }
+
+    private static void printGreeting(String name) {
+        System.out.println("Hello " + name + ", Welcome to TeamCity CICD Testing!");
     }
 }
