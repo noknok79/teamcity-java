@@ -15,6 +15,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
-        System.out.println("Test is completed");
+        System.out.println("Test is completed, by Mark Villanueva - TeamCity CICD Testing!");
     }
 }
